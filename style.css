@@ -1,0 +1,199 @@
+*{
+
+    margin:0%;
+    padding: 0%;
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+#header{
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 10%;
+    width: 100%;
+    position:fixed;
+}
+
+#logo{
+
+    height: 70%;
+}
+
+#logo img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.texts{
+    color: rgb(24, 2, 61);
+    font-family: 'Gill Sans';
+display: flex;
+}
+
+.texts:hover{
+color: aqua;
+}
+#contactDetails{
+    font-weight: lighter;
+
+}
+#contactDetails:hover{
+    color:blueviolet;
+}
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+   
+}
+.icon:hover{
+    background-color:lightblue;
+}
+#login{
+padding: 10px;
+display: flex;
+border-radius: 50px;
+
+}
+#login:hover{
+    background-color: lightblue;
+}
+#try{
+    padding: 10px 20px;
+    background-color: green;
+    border-radius: 6%;
+
+}
+#try:hover{
+    background-color: darkgreen;
+}
+#page1{
+
+    height: 80%;
+    width: 100%;
+    background-color:white;
+}
+#fakeHeader{
+    height: 10%;
+    width: 100%;
+}
+
+#strip{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(24, 3, 109);
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+#strip u{
+    margin-left: 20px;
+    font-weight: lighter;
+}
+#content{
+    height: 76%;
+    width: 100;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#box1{
+    height: 90%;
+    width: 47%;
+    
+}
+#box2{
+    height: 90%;
+    width: 47%;
+    
+}
+#box2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#heading{
+    height: 5%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading h1{
+    font-weight: 600;
+}
+
+#box1 h1{
+    margin: 30px 10px;
+    font-weight: 600;
+    color:rgb(0,0,80);
+    font-size: 50px;
+}
+#box1 p{
+
+   font-size: large-;
+    margin:30px 10px;
+    font-weight: lighter;
+}
+#btns{
+    display: flex;
+}
+#btn1{
+    text-align: center;
+    width: 23%;
+    padding: 10px 20px;
+    margin: 10px;
+    color:rgb(89, 213, 255);
+    border: 1px solid rgb(89, 213, 255);
+    border-radius: 5px;
+}
+#btn1:hover{
+    background-color:rgb(0,66,88);
+}
+#btn2{
+    border-radius: 5px;
+    width: 23%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    color:rgb(89, 213, 255);
+    border: 1px solid rgb(89,213,255);
+}
+#btn2:hover{
+    background-color: lightblue;
+    color:rgb(0,67,90);
+    border-color:rgb(0,67,90);
+
+
+}
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color: darkgray;
+}
+#page3{
+    height: 90%;
+    width: 100%;
+    background-color: brown;
+}
